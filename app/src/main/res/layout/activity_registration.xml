@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/registerNewUser"
+        android:textColor="@color/parchment"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/registerUserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/registerUserName"
+        android:textColorHint="@color/parchment"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/registerUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/registerUserPassword"
+        android:textColorHint="@color/parchment"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/repeatRegisterUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/repeatRegisterUserPassword"
+        android:textColorHint="@color/parchment"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/userEnter"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:textSize="18dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:layout_width="273dp"
+        android:layout_height="72dp"
+        />
+
+    <Button
+        android:id="@+id/userRegisterBack"
+        android:layout_marginTop="560dp"
+        android:layout_gravity="center"
+        android:text="@string/userRegisterBack"
+        android:textSize="18dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:layout_width="273dp"
+        android:layout_height="72dp"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="nameBar">Домашняя Фильмотека</string>
+    <string name="newUser">Новый пользователь</string>
+
+    <string name="enter">Войти</string>
+    <string name="enter2">Войти как существующий пользователь</string>
+
+    <string name="userName">Логин</string>
+    <string name="userPassword">Пароль</string>
+    <string name="enterUserBack">Назад</string>
+
+    <string name="registerUserName">Введите логин</string>
+    <string name="registerUserPassword">Введите пароль</string>
+    <string name="repeatRegisterUserPassword">Повторите введённый пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="registerNewUser">Регистрация нового пользователя</string>
+    <string name="userRegisterBack">Назад</string>
+
+    <string name="userFieldLogo">Моя фильмотека</string>
+    <string name="userFieldFilms">Все фильмы</string>
+    <string name="userFieldFavoriteFilms">Избранные фильмы</string>
+    <string name="userFieldReturn">Назад</string>
+
+    <string name="godFieldLogo">Моя фильмотека</string>
+    <string name="gosFieldFilms">Все фильмы</string>
+    <string name="gosFieldFavoriteFilms">Избранные фильмы</string>
+    <string name="godFieldUsers">Пользователи</string>
+    <string name="godFieldReturn">Назад</string>
+
+</resources>

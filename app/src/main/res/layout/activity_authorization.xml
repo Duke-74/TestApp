@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Authorization">
+
+
+    <TextView
+        android:id="@+id/enterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/enter2"
+        android:textColor="@color/parchment"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/userName"
+        android:textColorHint="@color/parchment"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/userPassword"
+        android:textColorHint="@color/parchment"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/authorizationEnter"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:text="@string/enter"
+        android:textSize="18dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:layout_width="273dp"
+        android:layout_height="82dp"
+        />
+
+    <Button
+        android:id="@+id/userEnterBack"
+        android:layout_marginTop="500dp"
+        android:layout_gravity="center"
+        android:text="@string/enterUserBack"
+        android:textSize="18dp"
+        android:backgroundTint="@color/chestnutTree"
+        android:layout_width="273dp"
+        android:layout_height="82dp"
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440884494333",
+    "firebase_url": "https://home-filmography-default-rtdb.firebaseio.com",
+    "project_id": "home-filmography",
+    "storage_bucket": "home-filmography.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440884494333:android:88463aabb206c64f2be394",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440884494333-1lafqs1keg12lbhpsgqpvghskv2hm6oc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testapp",
+            "certificate_hash": "c15e99de19e28e2f123611c2f31a46e67ff630cc"
+          }
+        },
+        {
+          "client_id": "440884494333-23taivppa9uv2c4ob8r62n0fvj33fium.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwdJ7lw6Tg2d5s1gvRbIvKoBEIR-ze4K8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440884494333-23taivppa9uv2c4ob8r62n0fvj33fium.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
